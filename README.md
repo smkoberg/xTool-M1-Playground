@@ -1,6 +1,9 @@
 # xTool-M1-Playground
 Wanting to improve the user experience with the xTool M1 desktop laster cutter and blade cutter. Decided to try rolling my own controller while learning a thing or two. So far, I have no idea what I'm doing.
 
+## OOPS ##
+I did a little research and found that USBPcap may not capture all of the USB data. Decided to pick up an inexpensive digital analyzer to try nailing down the communication between the xTool M1 and PC. 
+
 ## ./USBPcap/
 ### pcap files created during/used for testing
 * power_on_connect.pcapng
