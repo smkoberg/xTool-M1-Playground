@@ -1,6 +1,9 @@
 # xTool-M1-Playground
 Wanting to improve the user experience with the xTool M1 desktop laster cutter and blade cutter. Decided to try rolling my own controller while learning a thing or two. So far, I have no idea what I'm doing.
 
+## UPDATES ##
+8/25/22 - The M1 utilizes WiFi so you don't have to be tethered to the device. I fired up wireshark yesterday and captured some traffic to start trying to disect communications to the M1. Because of this, I'll be focusing on getting something working with WiFi and move over to USB comms later. 
+
 ## OOPS ##
 I did a little research and found that USBPcap may not capture all of the USB data. Decided to pick up an inexpensive digital analyzer to try nailing down the communication between the xTool M1 and PC. 
 
